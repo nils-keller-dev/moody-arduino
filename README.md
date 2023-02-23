@@ -1,6 +1,6 @@
 # Moody-Arduino
 
-Moody-Arduino is the Arduino component of the [`Moody`](https://github.com/tsomic/moody-arduino) project. It contains everything that is needed to prepare an Arduino board for the project.
+Moody-Arduino is the Arduino component of the [`Moody`](https://github.com/tsomic/moody) project. It contains everything that is needed to prepare an Arduino board for the project.
 
 <br/>
 
@@ -8,7 +8,7 @@ Moody-Arduino is the Arduino component of the [`Moody`](https://github.com/tsomi
 
 With this project it is possible to display a range of facial expressions on an small display. The facial expressions are arranged in a restricted order so that only certain facial expressions can follow one another.
 
-When the Arduino is powered on, it displays a random facial expression. After a certain amount of time (between 1 and 2 minutes by default), the display changes to one of the next possible facial expressions.
+When the Arduino is powered on, it displays a random facial expression that is moving with two frames of animation. After a certain amount of time (between 1 and 2 minutes by default), the display changes to one of the next possible facial expressions.
 
 In addition to these facial expressions, there are also some special facial expressions that are triggered by external events. If the temperature sensor detects a temperature above or below a certain threshold, the "hot" or "cold" facial expression is displayed, respectively. If the knock sensor detects a vibration, the "shock" facial expression appears briefly.
 
