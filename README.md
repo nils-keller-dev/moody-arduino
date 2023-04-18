@@ -2,8 +2,6 @@
 
 Moody-Arduino is the Arduino component of the [`Moody`](https://github.com/tsomic/moody) project. It contains everything that is needed to prepare an Arduino board for the project.
 
-<br/>
-
 ## About
 
 With this project it is possible to display a range of facial expressions on an small display. The facial expressions are arranged in a restricted order so that only certain facial expressions can follow one another.
@@ -14,8 +12,6 @@ In addition to these facial expressions, there are also some special facial expr
 
 Moody-Arduino is designed to be easily customizable, so you can add your own facial expressions and modify their sequence. You can find out more about that in the [`moody-mapper`](https://github.com/tsomic/moody-mapper) repository.
 
-<br/>
-
 ## Requirements
 
 To get started with Moody-Arduino, you'll need the following hardware components:
@@ -25,15 +21,11 @@ To get started with Moody-Arduino, you'll need the following hardware components
 - A knock sensor (preferably a KY-031)
 - An OLED display (preferably an 1.3" I2C 128x64 OLED display)
 
-<br/>
-
 You'll also need the following libraries:
 
 - `GY21.h`: A library for the GY-21 Humidity & Temperature Sensor.
 - `Adafruit_SSD1306.h`: A library for controlling SSD1306-based OLED displays.
 - `avr/pgmspace.h`: A library for accessing the flash memory where the images are stored.
-
-<br/>
 
 ## Making A Moody
 
@@ -47,13 +39,9 @@ Nonetheless I will upload a circuit diagram once I get to creating it.
 
 Thats basically it! The display will start showing the first facial expression!
 
-<br/>
-
 ## Contributing
 
 Contributions are welcome! If you have ideas for new features, find any bugs, or would like to make improvements, please open an issue or submit a pull request.
-
-<br/>
 
 ## License
 
