@@ -12,7 +12,7 @@ When the Arduino is powered on, it displays a random facial expression that is m
 
 In addition to these facial expressions, there are also some special facial expressions that are triggered by external events. If the temperature sensor detects a temperature above or below a certain threshold, the "hot" or "cold" facial expression is displayed, respectively. If the knock sensor detects a vibration, the "shock" facial expression appears briefly.
 
-Moody-Arduino is designed to be easily customizable, so you can add your own facial expressions and modify their sequence. You can find out more about that in the [`moody-images`](https://github.com/tsomic/moody-images) and [`moody-mapper`](https://github.com/tsomic/moody-mapper) repositories.
+Moody-Arduino is designed to be easily customizable, so you can add your own facial expressions and modify their sequence. You can find out more about that in the [`moody-mapper`](https://github.com/tsomic/moody-mapper) repository.
 
 <br/>
 
@@ -20,18 +20,18 @@ Moody-Arduino is designed to be easily customizable, so you can add your own fac
 
 To get started with Moody-Arduino, you'll need the following hardware components:
 
--   An Arduino board (preferably a Seeeduino XIAO)
--   A temperature sensor (preferably a GY-21)
--   A knock sensor (preferably a KY-031)
--   An OLED display (preferably an 1.3" I2C 128x64 OLED display)
+- An Arduino board (preferably a Seeeduino XIAO)
+- A temperature sensor (preferably a GY-21)
+- A knock sensor (preferably a KY-031)
+- An OLED display (preferably an 1.3" I2C 128x64 OLED display)
 
 <br/>
 
 You'll also need the following libraries:
 
--   `GY21.h`: A library for the GY-21 Humidity & Temperature Sensor.
--   `Adafruit_SSD1306.h`: A library for controlling SSD1306-based OLED displays.
--   `avr/pgmspace.h`: A library for accessing the flash memory where the images are stored.
+- `GY21.h`: A library for the GY-21 Humidity & Temperature Sensor.
+- `Adafruit_SSD1306.h`: A library for controlling SSD1306-based OLED displays.
+- `avr/pgmspace.h`: A library for accessing the flash memory where the images are stored.
 
 <br/>
 
@@ -40,7 +40,7 @@ You'll also need the following libraries:
 Once you have the necessary hardware and libraries, you can download the code from this repository and flash it onto the Arduino board.
 
 Note that `faces.h` and `facesConfig.h` are automatically generated files and it should not be necessary for you to edit them manually.  
-If you want to change the facial expressions and/or mappings, have a look at the [`moody-images`](https://github.com/tsomic/moody-images) and [`moody-mapper`](https://github.com/tsomic/moody-mapper) repositories, where both these files are generated.
+If you want to change the facial expressions and/or mappings, have a look at the [`moody-mapper`](https://github.com/tsomic/moody-mapper) repository, where both these files are generated.
 
 The wiring should be pretty straight forward since both the temperature sensor and the display are connected to the I2C pins. Only the knock sensor has its own pin (Pin 6).  
 Nonetheless I will upload a circuit diagram once I get to creating it.
